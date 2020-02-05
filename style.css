@@ -11,3 +11,27 @@ html {
 body {
   font-family: sans-serif;
 }
+
+div {
+  width: 500px;
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid gray;
+  background: lightgrey;
+  padding: 5px;
+}
+
+button {
+  height: 20px;
+  width: 20px;
+  padding: 2px;
+  border: 1px solid gray;
+  background: rgba(135, 84, 255, 0.5);
+}
+input {
+  border: 1px solid gray;
+  height: 23px;
+  padding-left: 5px;
+}

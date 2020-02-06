@@ -31,21 +31,34 @@ div {
   grid-area: 1 / 2 / 1 / 5;
   background: rgb(96, 170, 80);
   border: 1px solid rgb(120, 184, 106);
+  outline: none;
+  padding-right: 10px;
+  font-size: 20px;
+  color: rgb(19, 104, 2);
+  text-align: right;
 }
 
 button {
-  background: rgb(96, 170, 80);
-  border: 1px solid rgb(146, 197, 134);
-  color: white;
   padding: 7px;
   font-size: 20px;
   cursor: pointer;
+  outline: none;
 }
 
-#divide,
-#multiply,
-#subtract,
-#add {
+.numbers {
+  background: rgb(96, 170, 80);
+  border: 1px solid rgb(146, 197, 134);
+  color: white;
+}
+
+.operators {
   background: rgb(124, 185, 111);
   color: rgb(60, 60, 60);
+}
+
+.pushed {
+  outline: none;
+  border: 4px solid rgb(146, 197, 134);
+  background: rgb(134, 235, 111);
+  transition: 0.75s;
 }
